@@ -1,0 +1,59 @@
+.container{
+    box-shadow: 20px 15px 20px rgba(0, 0, 0, 0.3);
+    width: 700px;
+    margin-left: 400px;
+    height: 900px;
+    background-color:darkslateblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    /* display: grid;
+    place-items: center; */
+}
+p,label{
+    font-size: 20px;
+    color: white;
+}
+p{
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+input{
+    padding: 14px;
+    margin: 4px;
+    outline: none;
+    border: hidden;
+    border-radius: 5px;
+    box-shadow:5px 10px 10px rgba(0, 0, 0, 0.3) ;
+}
+input::placeholder,text::placeholder{
+    color: gray;
+}
+
+textarea{
+    outline: none;
+}
+input[type="checkbox"], input[type="radio"]{
+    accent-color: rgb(152, 141, 212);
+}
+button{
+    padding: 20px;
+    margin-left: 115px;
+    margin-top: 17px;
+    border: hidden;
+    border-radius: 5px;
+    background-color: rgb(50, 4, 50);
+    color: beige;
+    font-size: 20px;
+    width: 50%;
+}
+button:hover{
+    background-color:rgb(128, 16, 128);
+}
